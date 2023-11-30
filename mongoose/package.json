@@ -1,0 +1,61 @@
+{
+  "name": "mongoose",
+  "description": "Mongoose MongoDB ODM",
+  "version": "7.6.3",
+  "author": "Guillermo Rauch <guillermo@learnboost.com>",
+  "keywords": [
+    "mongodb",
+    "document",
+    "model",
+    "schema",
+    "database",
+    "odm",
+    "data",
+    "datastore",
+    "query",
+    "nosql",
+    "orm",
+    "db"
+  ],
+  "license": "MIT",
+
+  "directories": {
+    "lib": "./lib/mongoose"
+  },
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "engines": {
+    "node": ">=14.20.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Automattic/mongoose/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Automattic/mongoose.git"
+  },
+  "homepage": "https://mongoosejs.com",
+  "browser": "./dist/browser.umd.js",
+  "config": {
+    "mongodbMemoryServer": {
+      "disablePostinstall": true
+    }
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/mongoose"
+  },
+  "tsd": {
+    "directory": "test/types",
+    "compilerOptions": {
+      "esModuleInterop": false,
+      "strict": true,
+      "allowSyntheticDefaultImports": true,
+      "strictPropertyInitialization": false,
+      "noImplicitAny": false,
+      "strictNullChecks": true,
+      "module": "commonjs",
+      "target": "ES2017"
+    }
+  }
+}
